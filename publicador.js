@@ -1,7 +1,7 @@
 const mqtt = require('mqtt');
 const axios = require('axios');
 
-const broker = 'mqtt://192.168.1.7'; // Tu IP local
+const broker = 'mqtt://192.168.1.x'; // Tu IP local
 const client = mqtt.connect(broker);
 
 let ultimoBTC = 0;
