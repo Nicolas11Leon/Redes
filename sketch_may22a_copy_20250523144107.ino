@@ -2,9 +2,9 @@
 #include <PubSubClient.h>
 #include <LiquidCrystal.h>
 
-const char* ssid = "FLIA LEON";
-const char* password = "10MER61LIN68";
-const char* mqtt_server = "192.168.1.7";
+const char* ssid = "La red de wifi";
+const char* password = "La clave del internet";
+const char* mqtt_server = "192.168.1.X";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
